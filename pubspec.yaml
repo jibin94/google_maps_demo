@@ -1,0 +1,31 @@
+name: google_maps_demo
+description: "A new Flutter application to demonstrate how to implement flutter google maps in a flutter application and implement routing."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.5.3
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  flutter_polyline_points: ^2.0.0
+  location: ^5.0.0
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
